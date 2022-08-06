@@ -5,7 +5,7 @@ class MobileNavbar {
       this.navLinks = document.querySelectorAll(navLinks);
       this.activeClass = "active";
   
-      this.handleClick = this.handleClick.bind(this);
+      this.handleClick = this.handleCalick.bind(this);
     }
   
     animateLinks() {
